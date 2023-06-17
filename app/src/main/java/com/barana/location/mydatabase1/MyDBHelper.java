@@ -16,6 +16,7 @@ public class MyDBHelper extends SQLiteOpenHelper {
 
     public MyDBHelper(Context context) {
         super(context, DB_NAME, null, 1);
+        // TODO: Uncommect the line below in first run. It creates initial database
         //SQLiteDatabase db = this.getWritableDatabase();
 
     }
